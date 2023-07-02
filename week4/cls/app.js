@@ -17,11 +17,11 @@ const promiseUserInt=new Promise(function(resolve,reject){
     }
 })
 
-promiseUserInt.then(function(value){
+promiseUserInt.then(function(){
     console.log(
         userIn.map((userI)=>userI+2)
     )
-}).catch(function(error){
+}).catch(function(){
     console.log(
         userIn.filter((userI)=>userI%2==0)
     )
