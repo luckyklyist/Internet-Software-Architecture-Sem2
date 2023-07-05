@@ -26,4 +26,6 @@ const obj={
     rama:function(){console.log(this.name)}
 }
 
-obj.rama()
+// obj.rama()
+
+console.log(JSON.stringify(obj))
