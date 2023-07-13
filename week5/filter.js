@@ -9,7 +9,6 @@ const books = [
     }
 ]
 
-
 const fileterFunc = (books) => {
     const filter = books.filter((book) => {
         if (book.rate > 4) {
